@@ -49,5 +49,24 @@ A comprehensive Human Resource Management System built with modern web technolog
 - **Automatic migrations** with drizzle-kit
 
 ## 📁 Project Structure
-
+psquare-hrms/
+├── client/                 # Frontend React application
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Application pages
+│   │   ├── hooks/          # Custom React hooks
+│   │   ├── lib/            # Utilities and configurations
+│   │   └── App.tsx         # Main application component
+│   └── index.html
+├── server/                 # Backend Express application
+│   ├── auth.ts             # Authentication logic
+│   ├── routes.ts           # API route definitions
+│   ├── storage.ts          # Data access layer
+│   ├── db.ts               # Database configuration
+│   └── index.ts            # Server entry point
+├── shared/                 # Shared TypeScript definitions
+│   └── schema.ts           # Database schema and types
+├── uploads/                # File upload storage
+├── attached_assets/        # Static assets and logos
+└── package.json
 **PSQUARE HRMS** - Streamlining HR Operations for Modern Organizations
